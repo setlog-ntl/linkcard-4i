@@ -75,7 +75,10 @@ export const siteConfig = {
   links: parseJSON<LinkItem[]>(process.env.NEXT_PUBLIC_LINKS, DEMO_LINKS),
   socials: parseJSON<SocialItem[]>(process.env.NEXT_PUBLIC_SOCIALS, [
   { platform: 'github', url: 'https://instagram.com' },
-  { platform: 'youtube', url: 'https://youtube.com' }
+  { platform: 'youtube', url: 'https://youtube.com' },
+  { platform: 'instagram', url: '' },
+  { platform: 'tiktok', url: '' },
+  { platform: 'linkedin', url: '' }
 ]),
   youtubeUrl: process.env.NEXT_PUBLIC_YOUTUBE_URL || null,
   gaId: process.env.NEXT_PUBLIC_GA_ID || null,
