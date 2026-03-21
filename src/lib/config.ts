@@ -70,7 +70,7 @@ export const siteConfig = {
   theme: process.env.NEXT_PUBLIC_THEME || 'gradient',
   bgStyle: (process.env.NEXT_PUBLIC_BG_STYLE || 'gradient') as BgStyle,
   primaryColor: process.env.NEXT_PUBLIC_PRIMARY_COLOR || '#f9a8d4',
-  cardStyle: (process.env.NEXT_PUBLIC_CARD_STYLE || 'pill') as CardStyle,
+  cardStyle: (process.env.NEXT_PUBLIC_CARD_STYLE || 'rounded') as CardStyle,
   fontFamily: (process.env.NEXT_PUBLIC_FONT_FAMILY || 'system') as FontFamily,
   links: parseJSON<LinkItem[]>(process.env.NEXT_PUBLIC_LINKS, DEMO_LINKS),
   socials: parseJSON<SocialItem[]>(process.env.NEXT_PUBLIC_SOCIALS, [
